@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.656,=C:\Users\sav\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.030,=C:\Users\sav\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.924,=C:\Users\sav\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.593,=C:\Users\sav\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.974,=C:\Users\sav\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.927,D:\usr\Project\asd_gorsvet3\Alarm\AlarmEditUnit1.cpp=D:\usr\Project\tmp\FS2\AlarmEditUnit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.530,=D:\usr\Project\asd_gorsvet3\Class\AsdClass3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.373,C:\Users\sav\Documents\RAD Studio\Projects\Unit1.cpp=D:\usr\Project\tmp\FS2\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.839,=C:\Users\sav\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.600,=C:\Users\sav\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.927,D:\usr\Project\asd_gorsvet3\Alarm\AlarmEditUnit1.h=D:\usr\Project\tmp\FS2\AlarmEditUnit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.808,=C:\Program Files (x86)\Embarcadero\RAD Studio\9.0\lib\win32\release\oraprovider160.lib</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.373,C:\Users\sav\Documents\RAD Studio\Projects\Unit1.dfm=D:\usr\Project\tmp\FS2\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.628,D:\usr\Project\tmp\FS2\Unit1.dfm=D:\usr\Project\tmp\FS2\AlarmEditUnit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.554,D:\usr\Project\tmp\FS2\Project1.cbproj=D:\usr\Project\asd_gorsvet3\Alarm\AlarmEdit.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.927,D:\usr\Project\asd_gorsvet3\Alarm\AlarmEditUnit1.dfm=D:\usr\Project\tmp\FS2\AlarmEditUnit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.628,D:\usr\Project\tmp\FS2\Unit1.cpp=D:\usr\Project\tmp\FS2\AlarmEditUnit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.423,C:\Users\sav\Documents\RAD Studio\Projects\Project1.cbproj=D:\usr\Project\tmp\FS2\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.373,C:\Users\sav\Documents\RAD Studio\Projects\Unit1.h=D:\usr\Project\tmp\FS2\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.641,=D:\usr\Project\asd_gorsvet3\Class\SemClass.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.628,D:\usr\Project\tmp\FS2\Unit1.h=D:\usr\Project\tmp\FS2\AlarmEditUnit1.h</Transaction>
+  </Transactions>
+</BorlandProject>

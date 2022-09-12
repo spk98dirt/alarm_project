@@ -1,0 +1,53 @@
+object FormProgress1: TFormProgress1
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  Caption = 'FormProgress1'
+  ClientHeight = 39
+  ClientWidth = 496
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 496
+    Height = 10
+    Align = alTop
+    BevelOuter = bvNone
+    TabOrder = 0
+    ExplicitTop = 8
+    ExplicitWidth = 185
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 10
+    Width = 496
+    Height = 29
+    Align = alClient
+    BevelOuter = bvNone
+    Caption = 'Panel2'
+    TabOrder = 1
+    ExplicitTop = 8
+    ExplicitHeight = 37
+    object ProgressBar1: TProgressBar
+      Left = 0
+      Top = 0
+      Width = 496
+      Height = 29
+      Align = alClient
+      TabOrder = 0
+      ExplicitTop = 6
+      ExplicitWidth = 321
+      ExplicitHeight = 30
+    end
+  end
+end

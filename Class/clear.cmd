@@ -1,0 +1,14 @@
+del *.bak
+del *.~*
+del *.obj
+del *.tds
+del Class\*.~*
+del Class\*.obj
+del Forms\*.~*
+del Forms\*.obj
+del Webcam\*.~*
+del Webcam\*.obj
+del Webcam\*.tds
+del Watch\*.~*
+del Watch\*.obj
+del Watch\*.tds

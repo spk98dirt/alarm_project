@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.404,=D:\usr\Project\asd_gorsvet3\Class\Funcs.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.345,D:\usr\Project\asd_gorsvet3\Class\Funcs.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.255,D:\asd_repo\asd_gorsvet3\Alarm\Unit1.h=D:\asd_repo\asd_gorsvet3\Alarm\Source\AlarmEvent.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.937,D:\asd_repo\asd_gorsvet3\Alarm\Unit1.h=D:\asd_repo\asd_gorsvet3\Alarm\Source\DbHelper.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.865,D:\asd_repo\asd_gorsvet3\Alarm\Source\AppIniSettings.cpp=D:\asd_repo\asd_gorsvet3\Alarm\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.865,D:\asd_repo\asd_gorsvet3\Alarm\Source\AppIniSettings.h=D:\asd_repo\asd_gorsvet3\Alarm\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.132,=D:\asd_repo\asd_gorsvet3\Alarm\Alarm_resources.rc</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.456,D:\asd_repo\asd_gorsvet3\Alarm\Alarm_resources.rc=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.827,=D:\asd_repo\FastReport\FastScript\fs_icpp.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.865,=D:\asd_repo\FastReport\FastScript\fs_iinterpreter.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.271,=D:\usr\Project\asd_gorsvet3\Class\SemClass.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.739,=D:\asd_repo\asd_gorsvet3\Alarm\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.937,D:\asd_repo\asd_gorsvet3\Alarm\Unit1.cpp=D:\asd_repo\asd_gorsvet3\Alarm\Source\DbHelper.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.625,=D:\asd_repo\asd_gorsvet3\Alarm\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.186,=D:\asd_repo\asd_gorsvet3\Alarm\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.255,D:\asd_repo\asd_gorsvet3\Alarm\Unit1.cpp=D:\asd_repo\asd_gorsvet3\Alarm\Source\AlarmEvent.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.433,D:\usr\Project\asd_gorsvet3\Class\SemClass.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.050,D:\asd_repo\asd_gorsvet3\Alarm\Source\AppHelper.h=D:\asd_repo\asd_gorsvet3\Alarm\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.776,D:\asd_repo\asd_gorsvet3\Alarm\Unit3.dfm=D:\asd_repo\asd_gorsvet3\Alarm\Source\fLoginForm.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.058,=D:\asd_repo\asd_gorsvet3\Alarm\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.005,=D:\asd_repo\asd_gorsvet3\Alarm\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.478,=D:\asd_repo\asd_gorsvet3\Alarm\AsdStyle.vsf</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.168,D:\asd_repo\asd_gorsvet3\Alarm\Style\Styles.vsf=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.788,D:\asd_repo\asd_gorsvet3\Alarm\Style\Styles.vsf=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.066,D:\usr\Project\asd_gorsvet3\Class\LogClass.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.554,=D:\usr\Project\asd_gorsvet3\Class\LogClass.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.050,D:\asd_repo\asd_gorsvet3\Alarm\Source\AppHelper.cpp=D:\asd_repo\asd_gorsvet3\Alarm\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.186,=D:\asd_repo\asd_gorsvet3\Alarm\Style\Styl.vsf</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.901,D:\asd_repo\asd_gorsvet3\Alarm\Style\Styl.vsf=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.196,D:\asd_repo\asd_gorsvet3\Alarm\Style\Styles.vsf=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.087,=D:\asd_repo\asd_gorsvet3\Alarm\Style\Styles.vsf</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.333,=D:\asd_repo\asd_gorsvet3\Alarm\Style\Styles.vsf</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.776,D:\asd_repo\asd_gorsvet3\Alarm\Unit3.h=D:\asd_repo\asd_gorsvet3\Alarm\Source\fLoginForm.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.882,=D:\usr\Project\asd_gorsvet3\Class\AsdClass3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.967,D:\usr\Project\asd_gorsvet3\Class\AsdClass3.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.776,D:\asd_repo\asd_gorsvet3\Alarm\Unit3.cpp=D:\asd_repo\asd_gorsvet3\Alarm\Source\fLoginForm.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.488,=D:\asd_repo\asd_gorsvet3\Alarm\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.310,D:\asd_repo\asd_gorsvet3\Alarm\AsdStyle.vsf=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.350,=D:\asd_repo\asd_gorsvet3\Alarm\Styles.vsf</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.094,D:\asd_repo\asd_gorsvet3\Alarm\Styles.vsf=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.096,D:\asd_repo\asd_gorsvet3\Alarm\Source\AppSettings.h=D:\asd_repo\asd_gorsvet3\Alarm\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.096,D:\asd_repo\asd_gorsvet3\Alarm\Source\AppSettings.cpp=D:\asd_repo\asd_gorsvet3\Alarm\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.062,D:\asd_repo\asd_gorsvet3\Form\Connect.cpp=</Transaction>
+  </Transactions>
+</BorlandProject>

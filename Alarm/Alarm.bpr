@@ -1,0 +1,192 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Alarm.exe"/>
+    <OBJFILES value="Alarm.obj AlarmUnit1.obj ..\Form\Connect.obj PropertyUnit1.obj"/>
+    <RESFILES value="Alarm.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) AlarmUnit1.dfm ..\Form\Connect.dfm PropertyUnit1.dfm"/>
+    <LIBFILES value="..\..\sem3\lib_api\lib_api.lib"/>
+    <LIBRARIES value="bcb2kaxserver.lib indy.lib dbxcds.lib 
+      dclocx.lib soaprtl.lib bcbie.lib nmfast.lib dbexpress.lib inetdbxpress.lib 
+      inetdbbde.lib bcbsmp.lib visualdbclx.lib teeqr.lib dss.lib tee.lib 
+      teedb.lib teeui.lib bdecds.lib cds.lib ibxpress.lib vcldbx.lib adortl.lib 
+      inet.lib xmlrtl.lib odac60.lib dac60.lib bdertl.lib qrpt.lib dbrtl.lib 
+      vcldb.lib vclx.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib vclx.lib vcldb.lib dbrtl.lib qrpt.lib 
+      bdertl.lib dac60.lib odac60.lib xmlrtl.lib inet.lib adortl.lib vcldbx.lib 
+      ibxpress.lib cds.lib bdecds.lib teeui.lib teedb.lib tee.lib dss.lib 
+      teeqr.lib visualdbclx.lib bcbsmp.lib inetdbbde.lib inetdbxpress.lib 
+      dbexpress.lib nmfast.lib bcbie.lib soaprtl.lib dclocx.lib dbxcds.lib 
+      indy.lib bcb2kaxserver.lib CRControls60.lib dacvcl60.lib odacvcl60.lib 
+      oraprov60.lib dsnap.lib tmsc6.lib VclSmp.lib tmsexc6.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi vclx.bpi bcbsmp.bpi vcldb.bpi dbrtl.bpi bdertl.bpi 
+      qrpt.bpi vclie.bpi xmlrtl.bpi inet.bpi inetdbbde.bpi inetdbxpress.bpi 
+      nmfast.bpi soaprtl.bpi dsnap.bpi dclocx.bpi indy.bpi ibxpress.bpi 
+      visualclx.bpi visualdbclx.bpi dsnapcon.bpi bcbie.bpi dbexpress.bpi 
+      adortl.bpi vcldbx.bpi cds.bpi bdecds.bpi teeui.bpi teedb.bpi tee.bpi 
+      dss.bpi teeqr.bpi inetdb.bpi dbxcds.bpi bcb2kaxserver.bpi"/>
+    <PATHCPP value=".;..\Form"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="Alarm.cpp"/>
+    <INCLUDEPATH value="..\Form;D:\usr\Project\asd_gorsvet\Template;Forms;Class;&quot;D:\Program Files\Borland\CBuilder6\Projects&quot;;..\sem3\application\form;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;D:\usr\Project\asd_gorsvet1;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Odac\Include;$(BCB)\GisTool11;..\..\sem3\lib_api\class;..\..\sem3\lib_api;$(BCB)\SynEdit\Source;$(BCB)\Tms"/>
+    <LIBPATH value="..\Form;D:\usr\Project\asd_gorsvet\Template;&quot;D:\Program Files\Borland\CBuilder6\Projects&quot;;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Odac\Lib;$(BCB)\GisTool11;..\..\sem3\lib_api;$(BCB)\Tms;$(BCB)\SynEdit\Source"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-src_suffix cpp -D_DEBUG -I..\Form -ID:\usr\Project\asd_gorsvet\Template 
+      -IForms -IClass -I&quot;D:\Program Files\Borland\CBuilder6\Projects&quot; 
+      -I..\sem3\application\form -I&quot;C:\Program Files\Borland\CBuilder6\Projects&quot; 
+      -ID:\usr\Project\asd_gorsvet1 -I$(BCB)\include -I$(BCB)\include\vcl 
+      -I$(BCB)\Odac\Include -I$(BCB)\GisTool11 -I..\..\sem3\lib_api\class 
+      -I..\..\sem3\lib_api -I$(BCB)\SynEdit\Source -I$(BCB)\Tms -boa"/>
+    <CFLAG1 value="-Od -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Alarm.res" FORMNAME="" UNITNAME="Alarm.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Alarm.cpp" FORMNAME="" UNITNAME="Alarm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AlarmUnit1.cpp" FORMNAME="Form1" UNITNAME="AlarmUnit1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\sem3\lib_api\lib_api.lib" FORMNAME="" UNITNAME="lib_api.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Form\Connect.cpp" FORMNAME="ConnectForm10" UNITNAME="Connect" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PropertyUnit1.cpp" FORMNAME="Form2" UNITNAME="PropertyUnit1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+d:\program files\borland\cbuilder6\Bin\dclmcn60.bpl=(Untitled)
+d:\program files\borland\cbuilder6\Bin\dclwbm60.bpl=Borland InternetExpress Components
+d:\program files\borland\cbuilder6\Bin\dclwebsnap60.bpl=Borland WebSnap Components
+
+[HistoryLists\hlIncludePath]
+Count=20
+Item0=..\Form;D:\usr\Project\asd_gorsvet\Template;Forms;Class;D:\Program Files\Borland\CBuilder6\Projects;..\sem3\application\form;C:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet1;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Odac\Include;$(BCB)\GisTool11;..\..\sem3\lib_api\class;..\..\sem3\lib_api;$(BCB)\SynEdit\Source;$(BCB)\Tms
+Item1=D:\usr\Project\asd_gorsvet\Template;Forms;Class;D:\Program Files\Borland\CBuilder6\Projects;..\sem3\application\form;C:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet1;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Odac\Include;$(BCB)\GisTool11;..\..\sem3\lib_api\class;..\..\sem3\lib_api;$(BCB)\SynEdit\Source;$(BCB)\Tms
+Item2=D:\usr\Project\asd_gorsvet\Template;Forms;Class;D:\Program Files\Borland\CBuilder6\Projects;..\sem3\application\form;C:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet1;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Odac\Include;$(BCB)\GisTool11;..\sem3\lib_api\class;..\sem3\lib_api;$(BCB)\SynEdit\Source;..\sem3\application\lib\lib_component;..\sem3\application\lib\lib_form;..\sem3\application\lib\lib_interpreter;..\sem3\application\lib\lib_rep;..\sem3\application\lib\lib_script;$(BCB)\Tms;..\sem3\application\lib\lib_config
+Item3=Forms;Class;D:\Program Files\Borland\CBuilder6\Projects;..\sem3\application\form;C:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet1;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Odac\Include;$(BCB)\GisTool11;..\sem3\lib_api\class;..\sem3\lib_api;$(BCB)\SynEdit\Source;..\sem3\application\lib\lib_component;..\sem3\application\lib\lib_form;..\sem3\application\lib\lib_interpreter;..\sem3\application\lib\lib_rep;..\sem3\application\lib\lib_script;$(BCB)\Tms;..\sem3\application\lib\lib_config
+Item4=Forms;Class;D:\Program Files\Borland\CBuilder6\Projects;..\sem3\application\form;C:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet1;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Odac\Include;$(BCB)\GisTool11;..\sem3\lib_api\class;..\sem3\lib_api;$(BCB)\SynEdit\Source;..\sem3\application\lib\lib_component;..\sem3\application\lib\lib_form;..\sem3\application\lib\lib_interpreter;..\sem3\application\lib\lib_rep;..\sem3\application\lib\lib_script;$(BCB)\Tms
+Item5=Class;D:\Program Files\Borland\CBuilder6\Projects;..\sem3\application\form;C:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet1;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Odac\Include;$(BCB)\GisTool11;..\sem3\lib_api\class;..\sem3\lib_api;$(BCB)\SynEdit\Source;..\sem3\application\lib\lib_component;..\sem3\application\lib\lib_form;..\sem3\application\lib\lib_interpreter;..\sem3\application\lib\lib_rep;..\sem3\application\lib\lib_script;$(BCB)\Tms
+Item6=Class;D:\Program Files\Borland\CBuilder6\Projects;..\sem3\application\form;C:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet1;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Odac\Include;$(BCB)\GisTool11;..\sem3\lib_api\class;..\sem3\lib_api;$(BCB)\SynEdit\Source;..\sem3\application\lib\lib_component;..\sem3\application\lib\lib_form;..\sem3\application\lib\lib_interpreter;..\sem3\application\lib\lib_rep;..\sem3\application\lib\lib_script
+Item7=Class;D:\Program Files\Borland\CBuilder6\Projects;..\sem3\application\form;C:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet1;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Odac\Include;$(BCB)\GisTool11;..\sem3\lib_api\class;..\sem3\lib_api;$(BCB)\SynEdit\Source
+Item8=Class;D:\Program Files\Borland\CBuilder6\Projects;..\sem3\application\form;C:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet1;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Odac\Include;$(BCB)\GisTool11;..\sem3\lib_api\class;..\sem3\lib_api;D:\public\sav\asd_gorsvet1
+Item9=D:\Program Files\Borland\CBuilder6\Projects;..\sem3\application\form;C:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet1;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Odac\Include;$(BCB)\GisTool11;..\sem3\lib_api\class;..\sem3\lib_api;D:\public\sav\asd_gorsvet1
+Item10=D:\Program Files\Borland\CBuilder6\Projects;Forms;Class;..\sem3\application\form;C:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet1;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Odac\Include;$(BCB)\GisTool11;..\sem3\lib_api\class;..\sem3\lib_api;D:\public\sav\asd_gorsvet1
+Item11=D:\Program Files\Borland\CBuilder6\Projects;Forms;Class;..\sem3\application\form;C:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet1;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Odac\Include;$(BCB)\GisTool11;..\sem3\lib_api\class;..\sem3\lib_api
+Item12=D:\Program Files\Borland\CBuilder6\Projects;Forms;Class;..\sem3\application\form;C:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet1;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Odac\Include;$(BCB)\GisTool11;D:\usr\Project\sem3\lib_api\class;D:\usr\Project\sem3\lib_api
+Item13=Class;..\sem3\application\form;C:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet1;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Odac\Include;$(BCB)\GisTool11;D:\usr\Project\sem3\lib_api\class;D:\usr\Project\sem3\lib_api;D:\Program Files\Borland\CBuilder6\GisTool11
+Item14=Class;..\sem3\application\form;C:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet1;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\Odac\Include;$(BCB)\GisTool11;D:\usr\Project\sem3\lib_api\class;D:\usr\Project\sem3\lib_api
+Item15=Class;..\sem3\application\form;C:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet1;$(BCB)\include;$(BCB)\include\vcl;D:\Program Files\Borland\CBuilder6\Odac\Include;$(BCB)\GisTool11;D:\usr\Project\sem3\lib_api\class;D:\usr\Project\sem3\lib_api
+Item16=Class;..\sem3\application\form;C:\Program Files\Borland\CBuilder6\Projects;D:\public\sav\asd_gorsvet;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\Borland\CBuilder6\Odac\Include;$(BCB)\GisTool11;D:\public\sav\sem3\lib_api\class;D:\public\sav\sem3\lib_api
+Item17=C:\Program Files\Borland\CBuilder6\Projects;D:\public\sav\asd_gorsvet;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\Borland\CBuilder6\Odac\Include;$(BCB)\GisTool11;D:\public\sav\sem3\lib_api\class;D:\public\sav\sem3\lib_api\
+Item18=C:\Program Files\Borland\CBuilder6\Projects;D:\public\sav\asd_gorsvet;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\Borland\CBuilder6\Odac\Include;$(BCB)\GisTool11
+Item19=C:\Program Files\Borland\CBuilder6\GisTool11;C:\Program Files\Borland\CBuilder6\Projects;D:\public\sav\asd_gorsvet;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\Borland\CBuilder6\Odac\Include
+
+[HistoryLists\hlLibraryPath]
+Count=20
+Item0=..\Form;D:\usr\Project\asd_gorsvet\Template;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Odac\Lib;$(BCB)\GisTool11;..\..\sem3\lib_api;$(BCB)\Tms;$(BCB)\SynEdit\Source
+Item1=D:\usr\Project\asd_gorsvet\Template;D:\Program Files\Borland\CBuilder6\Projects;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Odac\Lib;$(BCB)\GisTool11;..\..\sem3\lib_api;$(BCB)\Tms;$(BCB)\SynEdit\Source
+Item2=D:\usr\Project\asd_gorsvet\Template;Forms;Class;D:\Program Files\Borland\CBuilder6\Projects;..\sem3\application\form;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Odac\Lib;$(BCB)\GisTool11;..\sem3\lib_api;$(BCB)\Tms;$(BCB)\SynEdit\Source;..\sem3\application\lib\lib_component\form;..\sem3\application\lib\lib_form\form;..\sem3\application\lib\lib_interpreter\form;..\sem3\application\lib\lib_rep;..\sem3\application\lib\lib_script\form;..\sem3\application\lib\lib_config;..\sem3\application\lib\lib_config\form
+Item3=Forms;Class;D:\Program Files\Borland\CBuilder6\Projects;..\sem3\application\form;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Odac\Lib;$(BCB)\GisTool11;..\sem3\lib_api;$(BCB)\Tms;$(BCB)\SynEdit\Source;..\sem3\application\lib\lib_component\form;..\sem3\application\lib\lib_form\form;..\sem3\application\lib\lib_interpreter\form;..\sem3\application\lib\lib_rep;..\sem3\application\lib\lib_script\form;..\sem3\application\lib\lib_config;..\sem3\application\lib\lib_config\form
+Item4=Forms;Class;D:\Program Files\Borland\CBuilder6\Projects;..\sem3\application\form;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Odac\Lib;$(BCB)\GisTool11;..\sem3\lib_api;$(BCB)\Tms;$(BCB)\SynEdit\Source;..\sem3\application\lib\lib_component\form;..\sem3\application\lib\lib_form\form;..\sem3\application\lib\lib_interpreter\form;..\sem3\application\lib\lib_rep;..\sem3\application\lib\lib_script\form
+Item5=Class;D:\Program Files\Borland\CBuilder6\Projects;..\sem3\application\form;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Odac\Lib;$(BCB)\GisTool11;..\sem3\lib_api;$(BCB)\Tms;$(BCB)\SynEdit\Source;..\sem3\application\lib\lib_component\form;..\sem3\application\lib\lib_form\form;..\sem3\application\lib\lib_interpreter\form;..\sem3\application\lib\lib_rep;..\sem3\application\lib\lib_script\form
+Item6=Class;D:\Program Files\Borland\CBuilder6\Projects;..\sem3\application\form;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Odac\Lib;$(BCB)\GisTool11;..\sem3\lib_api;$(BCB)\Tms;$(BCB)\SynEdit\Source;..\sem3\application\lib\lib_component;..\sem3\application\lib\lib_form;..\sem3\application\lib\lib_interpreter;..\sem3\application\lib\lib_rep;..\sem3\application\lib\lib_script
+Item7=Class;D:\Program Files\Borland\CBuilder6\Projects;..\sem3\application\form;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Odac\Lib;$(BCB)\GisTool11;..\sem3\lib_api;$(BCB)\Tms;$(BCB)\SynEdit\Source
+Item8=Class;D:\Program Files\Borland\CBuilder6\Projects;..\sem3\application\form;$(BCB)\Projects\Lib;D:\usr\Project\asd_gorsvet1;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Odac\Lib;$(BCB)\GisTool11;..\sem3\lib_api;$(BCB)\Tms
+Item9=Class;D:\Program Files\Borland\CBuilder6\Projects;..\sem3\application\form;$(BCB)\Projects\Lib;D:\usr\Project\asd_gorsvet1;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Odac\Lib;$(BCB)\GisTool11;..\sem3\lib_api
+Item10=Class;D:\Program Files\Borland\CBuilder6\Projects;..\sem3\application\form;$(BCB)\Projects\Lib;D:\usr\Project\asd_gorsvet1;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Odac\Lib;$(BCB)\GisTool11;..\sem3\lib_api;D:\public\sav\asd_gorsvet1
+Item11=D:\Program Files\Borland\CBuilder6\Projects;..\sem3\application\form;$(BCB)\Projects\Lib;D:\usr\Project\asd_gorsvet1;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Odac\Lib;$(BCB)\GisTool11;..\sem3\lib_api;D:\public\sav\asd_gorsvet1
+Item12=D:\Program Files\Borland\CBuilder6\Projects;Forms;Class;..\sem3\application\form;$(BCB)\Projects\Lib;$(BSB)\Projects;D:\usr\Project\asd_gorsvet1;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Odac\Lib;$(BCB)\GisTool11;..\sem3\lib_api;D:\public\sav\asd_gorsvet1
+Item13=D:\Program Files\Borland\CBuilder6\Projects;Forms;Class;..\sem3\application\form;$(BCB)\Projects\Lib;$(BSB)\Projects;D:\usr\Project\asd_gorsvet1;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Odac\Lib;$(BCB)\GisTool11;..\sem3\lib_api
+Item14=D:\Program Files\Borland\CBuilder6\Projects;Forms;Class;..\sem3\application\form;$(BCB)\Projects\Lib;$(BSB)\Projects;D:\usr\Project\asd_gorsvet1;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Odac\Lib;$(BCB)\GisTool11;D:\usr\Project\sem3\lib_api
+Item15=Class;..\sem3\application\form;$(BCB)\Projects\Lib;$(BSB)\Projects;D:\usr\Project\asd_gorsvet1;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\Odac\Lib;$(BCB)\GisTool11;D:\usr\Project\sem3\lib_api
+Item16=Class;..\sem3\application\form;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;D:\public\sav\asd_gorsvet;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\Borland\CBuilder6\Odac\Lib;$(BCB)\GisTool11;D:\public\sav\sem3\lib_api
+Item17=$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;D:\public\sav\asd_gorsvet;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\Borland\CBuilder6\Odac\Lib;$(BCB)\GisTool11;D:\public\sav\sem3\lib_api\
+Item18=$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;D:\public\sav\asd_gorsvet;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\Borland\CBuilder6\Odac\Lib;$(BCB)\GisTool11
+Item19=$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\GisTool11;C:\Program Files\Borland\CBuilder6\Projects;D:\public\sav\asd_gorsvet;$(BCB)\lib\obj;$(BCB)\lib;C:\Program Files\Borland\CBuilder6\Odac\Lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=2
+Item0=$(BCB)\source\vcl;D:\Program Files\Borland\CBuilder6\Tms\
+Item1=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl;D:\Program Files\Borland\CBuilder6\Tms\
+
+[Parameters]
+RunParams=-config=&quot;gorsvet_ekt.ini&quot; -u Администратор -p 1570 
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>

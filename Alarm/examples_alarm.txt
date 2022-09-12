@@ -1,0 +1,59 @@
+//Ua
+if( Link && PhaseA ){
+   if( Ua == 0 ){
+      Event = true;
+      Name = "Нет напряжения ф. A";
+      }
+   else if( Ua > Ua_max ){
+      Event = true;
+      Name = "Напряжение ф. A выше нормы";
+      }
+   else if( Ua < Ua_min ){
+      Event = true;
+      Name = "Напряжение ф. A ниже нормы";
+      }
+   }
+Alarm = Event;
+
+//Ub
+if( Link && PhaseB ){
+   if( Ub == 0 ){
+      Event = true;
+      Name = "Нет напряжения ф. B";
+      }
+   else if( Ub > Ub_max ){
+      Event = true;
+      Name = "Напряжение ф. B выше нормы";
+      }
+   else if( Ub < Ub_min ){
+      Event = true;
+      Name = "Напряжение ф. B ниже нормы";
+      }
+   }
+Alarm = Event;
+
+//Uc
+if( Link && PhaseC ){
+   if( Uc == 0 ){
+      Event = true;
+      Name = "Нет напряжения ф. C";
+      }
+
+   else if( Uc > Uc_max ){
+      Event = true;
+      Name = "Напряжение ф. C выше нормы";
+      }
+   else if( Uc < Uc_min ){
+      Event = true;
+      Name = "Напряжение ф. C ниже нормы";
+      }
+   }
+Alarm = Event;
+
+//SemA
+Event = Link&&PhaseA&&SemA; Alarm = Event;
+
+//SemB
+Event = Link&&PhaseB&&SemB; Alarm = Event;
+
+

@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Control.exe"/>
+    <OBJFILES value="Control.obj ControlForm1.obj ..\Form\Connect.obj ..\asd_rt\ImportASODU.obj 
+      ControlForm2.obj ..\asd_rt\TextTable.obj"/>
+    <RESFILES value="Control.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) ControlForm1.dfm ..\Form\Connect.dfm ControlForm2.dfm"/>
+    <LIBFILES value="..\..\sem3\lib_api\lib_api.lib"/>
+    <LIBRARIES value="tee.lib inet.lib xmlrtl.lib bdertl.lib VclSmp.lib vcldb.lib vclx.lib 
+      tmsc6.lib odac60.lib dac60.lib dbrtl.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib dbrtl.lib dac60.lib odac60.lib tmsc6.lib vclx.lib 
+      vcldb.lib VclSmp.lib bdertl.lib xmlrtl.lib inet.lib tee.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi vclx.bpi bcbsmp.bpi vcldb.bpi dbrtl.bpi bdertl.bpi 
+      qrpt.bpi vclie.bpi xmlrtl.bpi inet.bpi inetdbbde.bpi inetdbxpress.bpi 
+      nmfast.bpi soaprtl.bpi dsnap.bpi dclocx.bpi indy.bpi ibxpress.bpi 
+      visualclx.bpi visualdbclx.bpi dsnapcon.bpi bcbie.bpi dbexpress.bpi 
+      adortl.bpi vcldbx.bpi cds.bpi bdecds.bpi teeui.bpi teedb.bpi tee.bpi 
+      dss.bpi teeqr.bpi inetdb.bpi dbxcds.bpi bcb2kaxserver.bpi"/>
+    <PATHCPP value=".;..\Form;..\asd_rt"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="Control.cpp"/>
+    <INCLUDEPATH value="..\asd_rt;&quot;D:\Program Files\Borland\CBuilder6\Tms&quot;;..\Form;&quot;D:\Program Files\Borland\CBuilder6\Projects&quot;;D:\usr\Project\asd_gorsvet\alarm;$(BCB)\include;$(BCB)\include\vcl;&quot;D:\Program Files\Borland\CBuilder6\Odac\Include&quot;;..\..\sem3\lib_api;..\..\sem3\lib_api\class"/>
+    <LIBPATH value="..\asd_rt;$(BCB)\Projects\Lib;&quot;D:\Program Files\Borland\CBuilder6\Tms&quot;;$(BCB)\Odac\Include;..\Form;&quot;D:\Program Files\Borland\CBuilder6\Projects&quot;;D:\usr\Project\asd_gorsvet\alarm;$(BCB)\lib\obj;$(BCB)\lib;&quot;D:\Program Files\Borland\CBuilder6\Odac\Lib&quot;;..\..\sem3\lib_api;..\..\sem3\lib_api\class"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I..\asd_rt -I&quot;D:\Program Files\Borland\CBuilder6\Tms&quot; -I..\Form 
+      -I&quot;D:\Program Files\Borland\CBuilder6\Projects&quot; 
+      -ID:\usr\Project\asd_gorsvet\alarm -I$(BCB)\include -I$(BCB)\include\vcl 
+      -I&quot;D:\Program Files\Borland\CBuilder6\Odac\Include&quot; -I..\..\sem3\lib_api 
+      -I..\..\sem3\lib_api\class -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Control.res" FORMNAME="" UNITNAME="Control.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Control.cpp" FORMNAME="" UNITNAME="Control" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ControlForm1.cpp" FORMNAME="FormControl1" UNITNAME="ControlForm1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Form\Connect.cpp" FORMNAME="ConnectForm10" UNITNAME="Connect" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\..\sem3\lib_api\lib_api.lib" FORMNAME="" UNITNAME="lib_api.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\asd_rt\ImportASODU.cpp" FORMNAME="" UNITNAME="ImportASODU" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ControlForm2.cpp" FORMNAME="FormControl2" UNITNAME="ControlForm2" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\asd_rt\TextTable.cpp" FORMNAME="" UNITNAME="TextTable" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=3
+Item0=..\asd_rt;D:\Program Files\Borland\CBuilder6\Tms;..\Form;D:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet\alarm;$(BCB)\include;$(BCB)\include\vcl;D:\Program Files\Borland\CBuilder6\Odac\Include;..\..\sem3\lib_api;..\..\sem3\lib_api\class
+Item1=..\Form;D:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet\alarm;$(BCB)\include;$(BCB)\include\vcl;D:\Program Files\Borland\CBuilder6\Odac\Include;..\..\sem3\lib_api;..\..\sem3\lib_api\class
+Item2=..\Form;D:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet\alarm;$(BCB)\include;$(BCB)\include\vcl;D:\Program Files\Borland\CBuilder6\Odac\Include
+
+[HistoryLists\hlLibraryPath]
+Count=3
+Item0=..\asd_rt;$(BCB)\Projects\Lib;D:\Program Files\Borland\CBuilder6\Tms;$(BCB)\Odac\Include;..\Form;D:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet\alarm;$(BCB)\lib\obj;$(BCB)\lib;D:\Program Files\Borland\CBuilder6\Odac\Lib;..\..\sem3\lib_api;..\..\sem3\lib_api\class
+Item1=..\Form;D:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet\alarm;$(BCB)\lib\obj;$(BCB)\lib;D:\Program Files\Borland\CBuilder6\Odac\Lib;..\..\sem3\lib_api;..\..\sem3\lib_api\class
+Item2=..\Form;D:\Program Files\Borland\CBuilder6\Projects;D:\usr\Project\asd_gorsvet\alarm;$(BCB)\lib\obj;$(BCB)\lib;D:\Program Files\Borland\CBuilder6\Odac\Lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=-config=&quot;ppr_stis.ini&quot; -u Администратор -p 1570
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
